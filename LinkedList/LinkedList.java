@@ -1,5 +1,14 @@
+// To Run
+// javac -d ./ *.java
+// java -cp ${classpath} *.class
+
+package wolverine;
+import wolverine.Node;
+
 public class LinkedList {
   public static void main(String args[]) {
-    System.out.println("Hello World there try typing");
+    Node n = new Node("Node item");
+    n.next
+    System.out.println(n.item);
   }
 }
