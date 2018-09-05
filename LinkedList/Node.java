@@ -4,10 +4,10 @@
 package wolverine;
 
 public class Node {
-  String item;
+  String label;
   Node next;
 
-  public Node(String item) {
-    this.item = item;
+  public Node(String label) {
+    this.label = label;
   }
 }
